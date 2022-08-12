@@ -36,8 +36,8 @@ const Main = ({ scrollToRef }: MainProps) => (
             <div className={styles.preview}>
                 <Image
                     src="/images/mock.png"
-                    width={490}
-                    height={490}
+                    width={590}
+                    height={590}
                     alt="Hero"
                     className={styles.image}
                 />

@@ -16,7 +16,7 @@ const HomePage = () => {
 
     return (
         <Layout>
-            {/* <img className="l" src="/images/img.jpeg"
+            <img className="l" src="/images/img.jpeg"
             style={{
                 // objectFit: "cover",
                 // opacity: "1",
@@ -30,7 +30,7 @@ const HomePage = () => {
                 width: "100%",
                 // height: "90%"
             }}
-            /> */}
+            />
 
             <Main scrollToRef={scrollToRef} />
             <Website scrollToRef={scrollToRef} />
