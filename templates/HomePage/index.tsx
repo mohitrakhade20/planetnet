@@ -33,6 +33,28 @@ const HomePage = () => {
             }}
             />
 
+            {/* <video 
+            className="l"
+            autoPlay
+            loop 
+            muted 
+            playsInline
+            src="/videos/video.mp4"
+            style={{
+                objectFit: "cover",
+                opacity: "1",
+                filter: "blur(19px)",
+                backgroundImage: "linear-gradient(to bottom, #333, #333 50%, #eee 100%) #333",
+                zIndex: "1",
+                position: "absolute",
+                margin: "0",
+                padding: "0",
+                width: "100%",
+                height: "90%"
+            }}
+
+            /> */}
+
             <Main scrollToRef={scrollToRef} />
             <Discover />
             <Website scrollToRef={scrollToRef} />

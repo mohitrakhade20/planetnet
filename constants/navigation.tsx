@@ -4,18 +4,18 @@ export const headerNavigation = [
         url: "/",
     },
     {
-        title: "Take Action",
+        title: "Save Planet",
         url: "/pricing",
     },
     {
         title: "Case Studies",
         url: "/download",
     },
-    {
-        title: "Blogs",
-        url: "https://aaoblocktech.com/news",
-        external: true,
-    },
+    // {
+    //     title: "Blogs",
+    //     url: "https://aaoblocktech.com/news",
+    //     external: true,
+    // },
     {
         title: "Help",
         url: "/help",

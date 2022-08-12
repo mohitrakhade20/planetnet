@@ -26,7 +26,7 @@ const Main = ({ scrollToRef }: MainProps) => (
                     >
                         Launch app
                     </a>
-                    <Link href="/about-us">
+                    <Link href="/">
                         <a className={cn("button-gray", styles.button)}>
                             Learn more
                         </a>

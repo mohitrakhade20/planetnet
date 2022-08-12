@@ -29,7 +29,7 @@ const Footer = ({}: FooterProps) => {
                             title
                         />
                         <div className={styles.info}>
-                            Cut what you can, neutralise what you can't
+                            Cut what you can, neutralise what you can&apos;t
                         </div>
                     </div>
                 </div>

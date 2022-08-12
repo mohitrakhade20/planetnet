@@ -44,7 +44,7 @@ const Header = ({}: HeaderProps) => {
 
                 <SignIn
                     className={cn("button-gray", styles.button)}
-                    title="Sign In"
+                    title="Take Action"
                 />
                 {/* <Menu navigation={headerNavigation} /> */}
             </div>
