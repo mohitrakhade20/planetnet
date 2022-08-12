@@ -76,17 +76,17 @@ export const footerNavigation = [
             },
             {
                 title: "Behance",
-                url: "https://www.behance.net/ui8",
+                url: "https://www.behance.net/aaoblocktech",
                 external: true,
             },
             {
                 title: "Twitter",
-                url: "https://twitter.com/ui8",
+                url: "https://twitter.com/aaoblocktech",
                 external: true,
             },
             {
                 title: "Linked in",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/company/aaoblocktech",
                 external: true,
             },
         ],

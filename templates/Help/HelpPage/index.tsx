@@ -7,7 +7,7 @@ const BlogPage = () => {
     return (
         <Layout>
             <Main />
-            <HelpList />
+            {/* <HelpList /> */}
             <Subscription />
         </Layout>
     );

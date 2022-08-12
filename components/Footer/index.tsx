@@ -29,15 +29,15 @@ const Footer = ({}: FooterProps) => {
                             title
                         />
                         <div className={styles.info}>
-                            The Real-time & powerful 3D design for web.
+                            Cut what you can, neutralise what you can't
                         </div>
                     </div>
                 </div>
             </div>
             <div className={styles.bottom}>
                 <div className={cn("container", styles.container)}>
-                    <div className={styles.copyright}>©2022 - UI8, Ltd.</div>
-                    <div>Design by UI8 team.</div>
+                    <div className={styles.copyright}>©2022 - AOo BlockTech Pvt Ltd.</div>
+                    <div>Product by AAO Blocktech Pvt Ltd.</div>
                 </div>
             </div>
         </footer>

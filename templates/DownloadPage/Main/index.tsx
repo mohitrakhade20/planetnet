@@ -16,14 +16,14 @@ const Main = ({ scrollToRef }: MainProps) => (
                 <div className={cn("h4M", styles.info)}>
                     The Real-time case studies &nbsp;saving the planet
                 </div>
-                <div className={styles.line}>
+                {/* <div className={styles.line}>
                     <button className={cn("button", styles.button)}>
                         Download for Mac
                     </button>
                     <div className={styles.note}>
                         MacOS Big Sure (or higher)
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className={styles.preview}>
                 <Image
