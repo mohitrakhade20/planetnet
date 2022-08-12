@@ -8,9 +8,9 @@ const PricingPage = () => {
     return (
         <Layout>
             <Main />
-            <Plugins />
-            <Faq />
+            {/* <Plugins /> */}
             <JoinCommunity />
+            <Faq />
         </Layout>
     );
 };

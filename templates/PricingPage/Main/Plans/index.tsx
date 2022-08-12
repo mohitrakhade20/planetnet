@@ -42,17 +42,17 @@ const Plans = ({ plans }: PlansProps) => (
                         )}
                     </div>
                     <div className={styles.counter}>{plan.counter}</div>
-                    <div className={cn("h3", styles.price)}>
+                    {/* <div className={cn("h3", styles.price)}>
                         ${plan.price}{" "}
                         <span className={styles.duration}>
                             <span className={styles.separator}></span> mo
                         </span>
-                    </div>
+                    </div> */}
                     <div className={cn("h6", styles.details)}>
                         {plan.details}
                     </div>
                 </div>
-                <div className={styles.body}>
+                {/* <div className={styles.body}>
                     <div className={styles.options}>
                         {plan.options.map((option, index) => (
                             <div className={styles.option} key={index}>
@@ -77,7 +77,7 @@ const Plans = ({ plans }: PlansProps) => (
                                 : "Sign up now"
                         }
                     />
-                </div>
+                </div> */}
             </div>
         ))}
     </div>

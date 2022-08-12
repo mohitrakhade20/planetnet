@@ -16,7 +16,7 @@ const JoinCommunity = ({ }: JoinCommunityProps) => (
                    Are you a brand?
                 </div>
                 <div className={cn("h4M", styles.info)}>
-                    Offer frictionless climate action to your customers at zero cost
+                Offer frictionless climate action to your customers at zero cost
                 </div>
                 <div className={styles.avatars}>
                     {avatars.map((avatar, index) => (

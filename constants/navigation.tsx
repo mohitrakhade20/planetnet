@@ -1,19 +1,19 @@
 export const headerNavigation = [
     {
-        title: "Features",
+        title: "Home",
         url: "/",
     },
     {
-        title: "Pricing",
+        title: "Take Action",
         url: "/pricing",
     },
     {
-        title: "Download",
+        title: "Case Studies",
         url: "/download",
     },
     {
-        title: "Community",
-        url: "https://ui8.net/",
+        title: "Blogs",
+        url: "https://aaoblocktech.com/news",
         external: true,
     },
     {
@@ -34,7 +34,7 @@ export const footerNavigation = [
             },
             {
                 title: "Pricing",
-                url: "/pricing",
+                url: "/integrate",
                 external: false,
             },
             {

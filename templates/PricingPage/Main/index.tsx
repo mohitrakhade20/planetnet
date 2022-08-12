@@ -19,11 +19,11 @@ const Main = ({}: MainProps) => {
                 <div className={cn("container", styles.container)}>
                     <div className={styles.head}>
                         <div className={cn("h1", styles.title)}>
-                            Pricing plans
+                            Take Action with Plantnet
                         </div>
                         <div className={cn("h5M", styles.info)}>
-                            No credit card required. All plans come with a free,
-                            30-day trial of our Premium features.
+                             Contribute to the project & get real climate action. <br/>
+                             No credit card required.
                         </div>
                         <Tabs
                             className={styles.tabs}
@@ -43,12 +43,12 @@ const Main = ({}: MainProps) => {
                             key={index}
                             initiallyVisible={true}
                         >
-                            <Image
+                            {/* <Image
                                 src={image.src}
                                 width={image.width}
                                 height={image.height}
                                 alt={image.alt}
-                            />
+                            /> */}
                         </Animation>
                     ))}
                 </div>

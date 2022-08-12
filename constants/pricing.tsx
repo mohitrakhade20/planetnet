@@ -1,11 +1,15 @@
 export const tabs = [
     {
-        title: "Pay monthly",
-        value: "pay-monthly",
+        title: "Anytime",
+        value: "pay-anytime",
     },
     {
-        title: "Pay anually",
+        title: "Anually",
         value: "pay-anually",
+    },
+    {
+        title: "Monthly",
+        value: "pay-monthly",
         mark: true,
     },
 ];
@@ -27,10 +31,10 @@ export const images = [
 
 export const plans = [
     {
-        title: "Free",
-        counter: "3 projects & 1 editor",
+        title: "Planet Saver",
+        counter: "Anytime",
         price: 0,
-        details: "For simple personal projects",
+        details: "Select project of your interest and start contributing.",
         options: [
             {
                 title: "Instant publish",
@@ -65,11 +69,11 @@ export const plans = [
         ],
     },
     {
-        title: "Pro",
+        title: "You'er Planet's Superhero",
         recommended: true,
-        counter: "100 projects & 2 editor",
+        counter: "Every Month",
         price: 19,
-        details: "For small team and propessional",
+        details: "Like superhero save planet by contributing monthly.",
         options: [
             {
                 title: "Instant publish",
@@ -105,10 +109,10 @@ export const plans = [
         ],
     },
     {
-        title: "Premium",
-        counter: "Unlimited project & editors",
+        title: " You'er  Responsible Person",
+        counter: "Ones in Year",
         price: 49,
-        details: "For large agency and business.",
+        details: "Be responsible for your planet and contribute yearly.",
         options: [
             {
                 title: "Instant publish",

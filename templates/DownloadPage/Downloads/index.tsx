@@ -35,12 +35,12 @@ const Downloads = ({ scrollToRef }: DownloadsProps) => (
                                 </div>
                             )}
                             <div className={styles.preview}>
-                                <Image
+                                {/* <Image
                                     src={item.image.src}
                                     width={item.image.width}
                                     height={item.image.height}
                                     alt={item.image.alt}
-                                />
+                                /> */}
                             </div>
                         </div>
                     </div>
