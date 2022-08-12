@@ -1,0 +1,13 @@
+.l{
+    object-fit: cover;
+    opacity: 0.3;
+    filter: blur(19px);
+    -webkit-filter: blur(19px);
+     background-image: linear-gradient(to bottom, #333, #333 50%, #eee 100%) #333;
+    z-index: -1;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90%;
+}
