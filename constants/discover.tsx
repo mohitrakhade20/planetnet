@@ -1,7 +1,7 @@
 export const list = [
     {
-        title: "Find Climes on your favourite brands",
-        content: "Learn more about the emissions specific just to your order",
+        title: "Calculate you carbon emission",
+        content: "Learn more about your carbon footprint on Plantnet",
         image: "/images/toggle-off.svg",
         color: "#C4B5EE",
     },

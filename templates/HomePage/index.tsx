@@ -9,6 +9,7 @@ import Discover from "./Discover";
 import Reviews from "./Reviews";
 import Design from "./Design";
 import JoinCommunity from "@/components/JoinCommunity";
+import Projects from "./Projects";
 // import "./style.css"
 
 const HomePage = () => {
@@ -35,11 +36,12 @@ const HomePage = () => {
             <Main scrollToRef={scrollToRef} />
             <Discover />
             <Website scrollToRef={scrollToRef} />
-            <Generation />
-            <Details />
-            <Integration />
+            <Projects/>
             <Reviews />
-            <Design />
+            <Generation />
+            {/* <Details /> */}
+            {/* <Integration /> */}
+            {/* <Design /> */}
             <JoinCommunity />
         </Layout>
     );

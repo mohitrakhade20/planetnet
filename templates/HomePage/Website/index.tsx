@@ -29,7 +29,7 @@ const Website = ({ scrollToRef }: WebsiteProps) => {
                         Be one of them
 
                     </h2>
-                    
+
                     <Form
                         className={styles.form}
                         placeholder="Your email"
@@ -42,26 +42,32 @@ const Website = ({ scrollToRef }: WebsiteProps) => {
                 </div>
                 <div className={styles.previewMobile}>
                     <Image
-                        src="/images/website-pic-mobile.png"
+                        src="/images/earth.jpg"
                         width={400}
                         height={1101}
+                        objectFit="cover"
+                        style={{ borderRadius: "8%" }}
                         alt="Hero"
                     />
                 </div>
                 <div className={styles.previewDesktop}>
                     <Image
-                        src="/images/website-pic-desktop.png"
+                        src="/images/earth.jpg"
                         width={864}
                         height={500}
+                        objectFit="cover"
                         alt="Hero"
+                        style={{borderRadius :"8%"}}
                     />
                 </div>
                 <div className={styles.preview}>
                     <Image
-                        src="/images/website-pic.png"
+                        src="/images/earth.jpg"
                         width={720}
                         height={500}
+                        objectFit="cover"
                         alt="Hero"
+                        style={{ borderRadius: "8%" }}
                     />
                 </div>
             </div>

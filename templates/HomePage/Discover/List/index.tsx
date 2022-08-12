@@ -19,7 +19,7 @@ const List = ({ list }: ListProps) => {
             {list.map((item, index) => (
                 <div className={styles.box} key={index}>
                     <div className={styles.details}>
-                        <div className={cn("h6", styles.subtitle)}>
+                        <div className={cn("h4", styles.title)}>
                             {item.title}
                         </div>
                         <div className={styles.content}>{item.content}</div>
@@ -28,12 +28,15 @@ const List = ({ list }: ListProps) => {
                         className={styles.icon}
                         style={{ backgroundColor: item.color }}
                     >
-                        <Image
+                        <div className={cn("h4", styles.title)}>
+                            {index+1}
+                        </div>
+                        {/* <Image
                             src={item.image}
                             width={32}
                             height={32}
                             alt="Icon"
-                        />
+                        /> */}
                     </div>
                 </div>
             ))}

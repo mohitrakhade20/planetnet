@@ -1,48 +1,44 @@
 export const reviews = [
     {
-        author: "Emine Isik",
-        position: "Nursing Assistant",
+        author: "Mohit Rakhade",
+        position: "Planet Lover",
         avatar: "/images/avatar-1.png",
         content:
-            "“It has been an absolute pleasure dealing with Scan during the lockdown. Our church began to livestream our services, and Scan had a great selection of hardware....”",
+            "“I learned about Plantnet a few days back when I was checking zingbus. What a noble mission to back. These cleantech/energy tech startups are solving for a very grave problem of climate change. Kudos!!!”",
     },
     {
-        author: "Fattum Bozok",
-        position: "Web Designer",
+        author: "Karan Kharode",
+        position: "Web Developer",
         avatar: "/images/avatar-2.png",
         content:
-            "“I was also lucky enough to read @Coding_Career early and I was thoroughly blown away! It’s the book I wish I had when I started my dev career.”",
-        delay: 300,
+            "Plantnet makes it easy to neutralize carbon from lifestyle activities. It's a good place to start and be motivated to make lifestyle changes that make for climate action.“"
+        , delay: 300,
     },
     {
-        author: "Veli Dincer",
-        position: "Dog Trainer",
+        author: "Prajwal Ghate",
+        position: "Blockchain Developer",
         avatar: "/images/avatar-3.png",
         content:
-            "“Wow! The immense wealth of knowledge and experience shared in “The Coding Career Handbook” cannot be overstated. I love how Shawn is able to take his own experience and what he's observed in the careers of others and generalize it to principles that will help others level up their own careers. 5 stars ⭐⭐⭐⭐⭐”",
-        delay: 600,
+            "“With Plantnet, I neutralized 600 kg CO2e which is similar to activities in the picture below. Do check out this young company and the great work they do.", delay: 600,
     },
     {
-        author: "Mansur Sarica",
-        position: "Medical Assistant",
+        author: "Pradeep Gupta",
+        position: "Climate Enthusiast",
         avatar: "/images/avatar-4.png",
-        content:
-            "“The links to high-value blog posts already make the book worth it, never mind the amazing insight and context provided by Shawn. Must buy for #CodeNewbies looking to break in or senior engineers looking to grow!”",
-    },
+        content: "This is fantastic.We need Plantnet and similar initiatives to achieve the herculean task of global net zero by 2050 and to keep temperatures below 2ºC"    },
     {
-        author: "M. Kemal Yilmaz",
-        position: "President of Sales",
+        author: "Janhavi Deshmukh",
+        position: "Planet Lover",
         avatar: "/images/avatar-5.png",
         content:
-            "“For anyone looking for career advice as a coder but is tired of being told they have to do X or never do Y. Shawn is sharing his personal experiences and knowledge of navigating these sometimes overwhelming waters in the hopes you might find something useful. It's like having a caring big brother in your pocket! (if you read on your phone)”",
-        delay: 300,
+            "“With Plantnet, I neutralized 600 kg CO2e which is similar to activities in the picture below. Do check out this young company and the great work they do.", delay: 600,
     },
     {
-        author: "Emine Simsek",
-        position: "Marketing Coordinator",
+        author: "Bhargavee Burange",
+        position: "Planet Lover",
         avatar: "/images/avatar-6.png",
         content:
-            "“I wish I had this book when I was switching jobs. It helps you understand what skills you should leverage and really encourages you not underlevel yourself!”",
-        delay: 600,
+            "“I learned about Plantnet a few days back when I was checking zingbus. What a noble mission to back. These cleantech/energy tech startups are solving for a very grave problem of climate change. Kudos!!!”",
     },
+
 ];

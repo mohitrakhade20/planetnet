@@ -21,7 +21,7 @@ const Reviews = ({}: ReviewsProps) => {
                         People are talking...
                     </div>
                     <div className={cn("h6", styles.info)}>
-                        Amet minim mollit non deserunt ullamco est.
+                        Platnet is the easiest way for individuals and brands to become climate-friendly. Take real climate action alongside everyday consumption. All in a single click.
                     </div>
                 </div>
                 <div className={styles.list}>

@@ -53,10 +53,13 @@
 .preview,
 .previewDesktop,
 .previewMobile
+    object-fit: cover
     text-align: center
     font-size: 0
 
 .preview
+    object-fit: cover
+    border-radius: 10px
     +x
         max-width: 580px
     +d
@@ -65,6 +68,8 @@
         display: none
 
 .previewDesktop
+    border-radius: 10px
+    object-fit: cover
     display: none
     +d
         display: block
@@ -72,6 +77,8 @@
         display: none
 
 .previewMobile
+    border-radius: 10px
+    object-fit: cover
     display: none
     +m
         display: block

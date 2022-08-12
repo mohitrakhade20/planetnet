@@ -13,10 +13,10 @@ const JoinCommunity = ({ }: JoinCommunityProps) => (
         <div className={cn("container", styles.container)}>
             <div className={styles.wrap}>
                 <div className={cn("h1", styles.title)}>
-                    Ready to use Plantnet?
+                   Are you a brand?
                 </div>
                 <div className={cn("h4M", styles.info)}>
-                    Join thousand users and teams in the community
+                    Offer frictionless climate action to your customers at zero cost
                 </div>
                 <div className={styles.avatars}>
                     {avatars.map((avatar, index) => (
@@ -31,7 +31,7 @@ const JoinCommunity = ({ }: JoinCommunityProps) => (
                     ))}
                 </div>
                 <Link href="/pricing">
-                    <a className={cn("button", styles.button)}>Get started</a>
+                    <a className={cn("button", styles.button)}>Get in touch</a>
                 </Link>
             </div>
             <div className={styles.images}>
