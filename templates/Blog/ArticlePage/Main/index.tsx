@@ -4,13 +4,13 @@ import Image from "@/components/Image";
 
 type MainProps = {};
 
-const Main = ({}: MainProps) => (
+const Main = ({ }: MainProps) => (
     <div className={cn("section-border-main", styles.main)}>
         <div className={cn("container", styles.container)}>
             <div className={styles.head}>
                 <div className={styles.category}>Product & features</div>
                 <h1 className={cn("h2", styles.title)}>
-                    What’s new in Paradox 2.0 Beta version
+                    What’s new in Plantnet 2.0 Beta version
                 </h1>
                 <div className={styles.avatar}>
                     <Image

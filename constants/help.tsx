@@ -5,12 +5,12 @@ export const help = [
         questions: [
             {
                 icon: "⭐️",
-                content: "How to install Paradox",
+                content: "How to install Plantnet",
                 url: "/help/article",
             },
             {
                 icon: "🔥",
-                content: "What’s new in Paradox 2.0",
+                content: "What’s new in Plantnet 2.0",
                 url: "/help/article",
             },
             {
@@ -67,12 +67,12 @@ export const help = [
         questions: [
             {
                 icon: "🍎️",
-                content: "How to install Paradox",
+                content: "How to install Plantnet",
                 url: "/help/article",
             },
             {
                 icon: "🏀️",
-                content: "What’s new in Paradox 2.0",
+                content: "What’s new in Plantnet 2.0",
                 url: "/help/article",
             },
             {
@@ -129,12 +129,12 @@ export const help = [
         questions: [
             {
                 icon: "⭐️",
-                content: "How to install Paradox",
+                content: "How to install Plantnet",
                 url: "/help/article",
             },
             {
                 icon: "🔥",
-                content: "What’s new in Paradox 2.0",
+                content: "What’s new in Plantnet 2.0",
                 url: "/help/article",
             },
             {
@@ -160,12 +160,12 @@ export const help = [
         questions: [
             {
                 icon: "🍎️",
-                content: "How to install Paradox",
+                content: "How to install Plantnet",
                 url: "/help/article",
             },
             {
                 icon: "🏀️",
-                content: "What’s new in Paradox 2.0",
+                content: "What’s new in Plantnet 2.0",
                 url: "/help/article",
             },
             {

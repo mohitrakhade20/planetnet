@@ -12,7 +12,7 @@ const Main = ({ scrollToRef }: MainProps) => (
     <div className={styles.main}>
         <div className={cn("container", styles.container)}>
             <div className={styles.wrap}>
-                <div className={cn("hero", styles.title)}>Get Paradox</div>
+                <div className={cn("hero", styles.title)}>Get Plantnet</div>
                 <div className={cn("h4M", styles.info)}>
                     The Real-time & powerful 3D&nbsp;design for web.
                 </div>

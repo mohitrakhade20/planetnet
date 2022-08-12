@@ -21,15 +21,15 @@ const Logo = ({
     <Link href="/">
         <a className={cn(styles.logo, className)} onClick={onClick}>
             <Image
-                src={`/images/logo${black ? "-black" : ""}.svg`}
-                width={black ? 52 : 40}
-                height={black ? 52 : 40}
-                alt="Paradox"
+                src={`/images/LOGO.png`}
+                width={366/2.3}
+                height={143/2.3}
+                alt="Platnet"
                 priority
             />
             {title && (
                 <div className={cn("h5M", styles.title, titleClassName)}>
-                    Paradox
+                    PlantNet
                 </div>
             )}
         </a>

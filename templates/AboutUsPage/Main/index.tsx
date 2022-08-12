@@ -3,12 +3,12 @@ import styles from "./Main.module.sass";
 
 type MainProps = {};
 
-const Main = ({}: MainProps) => (
+const Main = ({ }: MainProps) => (
     <div className={cn("section", styles.main)}>
         <div className={cn("container", styles.container)}>
             <h1 className={cn("h1", styles.title)}>About us</h1>
             <div className={styles.row}>
-                <div className={cn("h3", styles.subtitle)}>What is Paradox</div>
+                <div className={cn("h3", styles.subtitle)}>What is Plantnet</div>
                 <div className={styles.details}>
                     <div className={cn("h5M", styles.info)}>
                         Amet minim mollit non deserunt ullamco est sit aliqua

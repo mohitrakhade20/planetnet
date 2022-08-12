@@ -18,10 +18,10 @@ class MyDocument extends Document {
                 <Head>
                     <meta
                         content="Production-ready landing page template for SaaS and startups"
-                        name="Paradox – Premium SaaS landing page kit"
+                        name="Plantnet – Premium SaaS landing page kit"
                     />
                     <meta
-                        content="Paradox – Premium SaaS landing page kit"
+                        content="Plantnet – Premium SaaS landing page kit"
                         property="og:title"
                     />
                     <meta
@@ -34,14 +34,14 @@ class MyDocument extends Document {
                     />
                     <meta
                         property="og:url"
-                        content="https://ui8.net/ui8/products/paradox"
+                        content="https://ui8.net/ui8/products/Plantnet"
                     />
                     <meta
                         property="og:site_name"
-                        content="Paradox – Premium SaaS landing page kit"
+                        content="Plantnet – Premium SaaS landing page kit"
                     />
                     <meta
-                        content="Paradox – Premium SaaS landing page kit"
+                        content="Plantnet – Premium SaaS landing page kit"
                         property="twitter:title"
                     />
                     <meta

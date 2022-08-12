@@ -34,7 +34,7 @@ const links = [
 
 type MainProps = {};
 
-const Main = ({}: MainProps) => (
+const Main = ({ }: MainProps) => (
     <div className={cn("section-main", styles.main)}>
         <div className={cn("container", styles.container)}>
             <div className={styles.wrap}>
@@ -42,7 +42,7 @@ const Main = ({}: MainProps) => (
                     <div className={styles.head}>
                         <Breadcrumbs items={breadcrumbs} />
                         <h1 className={cn("h2", styles.title)}>
-                            How to install Paradox
+                            How to install Plantnet
                         </h1>
                         <div className={cn("h5M", styles.info)}>
                             Learn and level up

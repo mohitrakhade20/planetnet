@@ -17,11 +17,19 @@ const Website = ({ scrollToRef }: WebsiteProps) => {
             <div className={cn("container", styles.container)}>
                 <div className={styles.wrap}>
                     <h2 className={cn("h2", styles.title)}>
-                        Go from 3D to&nbsp;website in no time.
+                        360,000+ kgs of emissions neutralised
                     </h2>
                     <div className={cn("h5M", styles.info)}>
-                        Without any effort, save a ton of time.
+                        42,000+ people
+
+                        Keeping it cool.
+                        
                     </div>
+                    <h2 className={cn("h5M", styles.title)}>
+                        Be one of them
+
+                    </h2>
+                    
                     <Form
                         className={styles.form}
                         placeholder="Your email"

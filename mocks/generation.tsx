@@ -1,22 +1,22 @@
 export const generation = [
     {
-        title: "3D team assets",
+        title: "Zingbus",
         content: "Make your design more attractive",
         label: "new",
-        image: "/images/generation-pic-1.png",
+        image: "/images/zingbus.png",
         color: "#E1D3FA",
     },
     {
-        title: "Shared materials",
+        title: "Roamhome",
         content: "Create, enable and use across your team",
-        image: "/images/generation-pic-2.png",
+        image: "/images/roamhome.png",
         color: "#B6DFEC",
         delay: 300,
     },
     {
-        title: "Live share",
+        title: "Wedding Brigade",
         content: "Make your design more attractive",
-        image: "/images/generation-pic-3.png",
+        image: "/images/wedding.png",
         color: "#CCE8BE",
         delay: 600,
     },

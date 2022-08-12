@@ -22,14 +22,14 @@ const Discover = ({}: DiscoverProps) => {
                     >
                         <List list={list} />
                     </Item>
-                    <Item
+                    {/* <Item
                         className={styles.item}
                         title="Build simple or complex models."
                         info="Amet minim mollit non deserunt ullamco est."
                         video="BHACKCNDMW8"
                     >
                         <Models />
-                    </Item>
+                    </Item> */}
                 </div>
             </div>
         </div>

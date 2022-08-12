@@ -8,12 +8,12 @@ import { avatars, images } from "@/constants/joinCommunity";
 
 type JoinCommunityProps = {};
 
-const JoinCommunity = ({}: JoinCommunityProps) => (
+const JoinCommunity = ({ }: JoinCommunityProps) => (
     <div className={styles.join}>
         <div className={cn("container", styles.container)}>
             <div className={styles.wrap}>
                 <div className={cn("h1", styles.title)}>
-                    Ready to use Paradox?
+                    Ready to use Plantnet?
                 </div>
                 <div className={cn("h4M", styles.info)}>
                     Join thousand users and teams in the community

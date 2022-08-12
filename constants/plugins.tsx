@@ -1,6 +1,6 @@
 export const plugins = [
     {
-        title: "High resolution material for Paradox",
+        title: "High resolution material for Plantnet",
         info: "100 projects & 2 editor",
         price: 6,
         image: "/images/folder-pic-1.svg",
@@ -12,7 +12,7 @@ export const plugins = [
         image: "/images/folder-pic-2.svg",
     },
     {
-        title: "High resolution material for Paradox",
+        title: "High resolution material for Plantnet",
         info: "100 projects & 2 editor",
         price: 9,
         image: "/images/folder-pic-3.svg",

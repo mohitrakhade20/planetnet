@@ -20,7 +20,7 @@ export const faqs = [
         ),
     },
     {
-        title: "Can I try Paradox before paying?",
+        title: "Can I try Plantnet before paying?",
         content: (
             <>
                 <p>
@@ -40,7 +40,7 @@ export const faqs = [
         ),
     },
     {
-        title: "Can I try Paradox before paying?",
+        title: "Can I try Plantnet before paying?",
         content: (
             <>
                 <p>
@@ -60,7 +60,7 @@ export const faqs = [
         ),
     },
     {
-        title: "Can I try Paradox before paying?",
+        title: "Can I try Plantnet before paying?",
         content: (
             <>
                 <p>
@@ -80,7 +80,7 @@ export const faqs = [
         ),
     },
     {
-        title: "Can I try Paradox before paying?",
+        title: "Can I try Plantnet before paying?",
         content: (
             <>
                 <p>
@@ -100,7 +100,7 @@ export const faqs = [
         ),
     },
     {
-        title: "Can I try Paradox before paying?",
+        title: "Can I try Plantnet before paying?",
         content: (
             <>
                 <p>
@@ -120,7 +120,7 @@ export const faqs = [
         ),
     },
     {
-        title: "Can I try Paradox before paying?",
+        title: "Can I try Plantnet before paying?",
         content: (
             <>
                 <p>
@@ -140,7 +140,7 @@ export const faqs = [
         ),
     },
     {
-        title: "Can I try Paradox before paying?",
+        title: "Can I try Plantnet before paying?",
         content: (
             <>
                 <p>

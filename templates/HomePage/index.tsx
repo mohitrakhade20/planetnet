@@ -33,11 +33,11 @@ const HomePage = () => {
             />
 
             <Main scrollToRef={scrollToRef} />
+            <Discover />
             <Website scrollToRef={scrollToRef} />
             <Generation />
             <Details />
             <Integration />
-            <Discover />
             <Reviews />
             <Design />
             <JoinCommunity />

@@ -6,7 +6,7 @@ import Animation from "@/components/Animation";
 
 type SubscriptionProps = {};
 
-const Subscription = ({}: SubscriptionProps) => {
+const Subscription = ({ }: SubscriptionProps) => {
     const [name, setName] = useState<string>("");
     const [email, setEmail] = useState<string>("");
 
@@ -16,7 +16,7 @@ const Subscription = ({}: SubscriptionProps) => {
                 <div className={styles.wrapper}>
                     <div className={styles.head}>
                         <div className={cn("h1", styles.title)}>
-                            Ready to use Paradox?
+                            Ready to use Plantnet?
                         </div>
                         <div className={cn("h4M", styles.info)}>
                             Join thousand users and teams in the community

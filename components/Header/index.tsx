@@ -5,7 +5,7 @@ import styles from "./Header.module.sass";
 import Logo from "@/components/Logo";
 import SignIn from "@/components/SignIn";
 import Menu from "./Menu";
-
+import NavLink from "@/components/NavLink";
 import { headerNavigation } from "@/constants/navigation";
 
 type HeaderProps = {};
@@ -28,11 +28,25 @@ const Header = ({}: HeaderProps) => {
         >
             <div className={cn("container", styles.container)}>
                 <Logo className={styles.logo} />
+                <nav className={styles.navigation}>
+                    {headerNavigation.map((link, index) => (
+                        <NavLink
+
+                            className={cn("h5M", styles.link)}  
+                            activeClassName={styles.active}
+                            href={link.url}
+                            key={index}
+                        >
+                            {link.title}
+                        </NavLink>
+                    ))}
+                </nav>
+
                 <SignIn
                     className={cn("button-gray", styles.button)}
                     title="Sign In"
                 />
-                <Menu navigation={headerNavigation} />
+                {/* <Menu navigation={headerNavigation} /> */}
             </div>
         </header>
     );

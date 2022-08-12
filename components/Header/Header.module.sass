@@ -8,6 +8,7 @@
     z-index: 30
     padding: 24px 0
     transition: padding .2s, background .2s
+    alig
     &:after
         content: ""
         position: absolute
@@ -47,4 +48,37 @@
 
 .logo
     margin-right: auto
+.navigation
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-right: 30px
+    +m
+        flex-direction: column
+        align-items: flex-start
+        justify-content: center
+        +d
+            padding: 0
+        +m
+            padding: 0
+    &.visible
+        +d
+            padding: 16px 0
+        +m
+            padding: 12px 0
+.link
+    display: flex
+    align-items: center
+    color: $n4
+    transition: color .2s
+    padding: 0  20px
+    svg
+        margin-left: 12px
+        fill: $n4
+        transition: fill .2s
+    &:hover,
+    &.active
+        color: $n7
+        svg
+            fill: $n7
 

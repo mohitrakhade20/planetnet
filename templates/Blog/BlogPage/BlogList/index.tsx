@@ -9,7 +9,7 @@ import { blog } from "@/mocks/blog";
 
 type BlogListProps = {};
 
-const BlogList = ({}: BlogListProps) => {
+const BlogList = ({ }: BlogListProps) => {
     const [value, setValue] = useState<string>("all");
 
     const navigation = [
@@ -37,7 +37,7 @@ const BlogList = ({}: BlogListProps) => {
         <div className={cn("section-main", styles.blog)}>
             <div className={cn("container", styles.container)}>
                 <div className={styles.head}>
-                    <h2 className={cn("h2", styles.title)}>Paradox Blog</h2>
+                    <h2 className={cn("h2", styles.title)}>Plantnet Blog</h2>
                     <div className={styles.nav}>
                         {navigation.map((link, index) => (
                             <button
